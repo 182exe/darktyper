@@ -1,0 +1,47 @@
+body {
+  background: #090C0C;
+  cursor: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.heading {
+  font-family: monospace;
+  font-size: 30px;
+  color: #999999;
+  line-height: 15px;
+}
+.subheading {
+  font-family: monospace;
+  font-size: 20px;
+  font-style: italic;
+  color: #999999;
+  line-height: 10px;
+}
+.body {
+  font-family: monospace;
+  font-size: 15px;
+  color: #999999;
+  line-height: 20px;
+  font-style: default;
+}
+
+::-moz-selection {
+  color: #090C0C;
+  background: #999999;
+  border-radius: 4px;
+  border: none;
+}
+::selection {
+  color: #090C0C;
+  background: #999999;
+  border: none;
+  border-radius: 4px;
+}
+
+[contenteditable] {
+  outline: 2px solid #999999;
+  padding: 5px;
+  border-radius: 3px;
+}
