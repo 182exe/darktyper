@@ -1,6 +1,5 @@
 body {
   background: #090C0C;
-  cursor: none;
 }
 html {
   scroll-behavior: smooth;
@@ -24,7 +23,15 @@ html {
   font-size: 15px;
   color: #999999;
   line-height: 20px;
-  font-style: default;
+  font-style: normal;
+}
+
+a:link {
+  font-family: monospace;
+  font-size: 15px;
+  color: #999999;
+  line-height: 20px;
+  font-style: normal;
 }
 
 ::-moz-selection {
