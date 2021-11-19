@@ -33,6 +33,27 @@ a:link {
   line-height: 20px;
   font-style: normal;
 }
+a:visited {
+  font-family: monospace;
+  font-size: 15px;
+  color: #999999;
+  line-height: 20px;
+  font-style: normal;
+}
+a:hover {
+  font-family: monospace;
+  font-size: 15px;
+  color: #999999;
+  line-height: 20px;
+  font-style: normal;
+}
+a:active {
+  font-family: monospace;
+  font-size: 15px;
+  color: #999999;
+  line-height: 20px;
+  font-style: normal;
+}
 
 ::-moz-selection {
   color: #090C0C;
