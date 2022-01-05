@@ -1,5 +1,9 @@
 body {
   background: #090C0C;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 html {
   scroll-behavior: smooth;
